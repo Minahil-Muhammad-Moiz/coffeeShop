@@ -40,7 +40,7 @@ const Navbar = () => {
           damping: 10,
           delay: 0.8,
         }}
-        className={`fixed top-0 left-0 right-0 w-full py-4 container z-40 ${scrolled && 'transition-all duration-700 ease-in-out bg-zinc-700 opacity-80'}`}
+        className={`fixed top-0 left-0 right-0 w-full py-4 container z-50 ${scrolled && 'transition-all duration-700 ease-in-out bg-zinc-700 opacity-80'}`}
       >
         <div className="flex justify-between items-center">
           {/* logo Section */}
@@ -63,7 +63,7 @@ const Navbar = () => {
             stiffness: 100,
             damping: 10,
           }}
-          className="fixed h-full w-36 bg-primaryDark top-0 right-0 z-20 opacity-90"
+          className="fixed h-full w-36 bg-primaryDark top-0 right-0 z-40 opacity-90"
         >
           <div className="flex flex-col items-center justify-center h-full w-full text-center text-white">
             <div className="h-20 w-[1px] bg-white"></div>
