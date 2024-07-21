@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import BuyerForm from "./Components/BuyerForm";
+import Cover from "./Components/Cover";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Hero />
       <Services />
       <BuyerForm />
+      <Cover />
     </div>
   );
 };
