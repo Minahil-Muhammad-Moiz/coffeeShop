@@ -29,11 +29,13 @@ const Footer = () => {
     },
   };
   return (
-    <footer className="contaier bg-gradient-to-r from-primary to-primaryDark pt-12 pb-8 text-white w-full h-auto">
+    <footer className="contaier bg-gradient-to-r from-primary to-primaryDark pt-12 pb-8 text-white ">
+      <div className="container">
+
       <motion.div
         variants={containerVariants}
         initial="hidden"
-        animate={"visible"}
+        whileInView={"visible"}
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
       >
         {/* companny details Section */}
@@ -83,6 +85,7 @@ const Footer = () => {
           <img src={Image.Credits} alt="credits" width={400} />
         </motion.div>
       </motion.div>
+      </div>
       {/* Copyright */}
       <div className="container mt-8 ">
         <div className="container border-white border-t-2 text-center pt-8">
