@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import BuyerForm from "./Components/BuyerForm";
 import Cover from "./Components/Cover";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Services />
       <BuyerForm />
       <Cover />
+      <Footer />
     </div>
   );
 };

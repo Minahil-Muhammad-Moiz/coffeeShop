@@ -1,7 +1,7 @@
 import React from "react";
-import { Image } from "../Assets/Contants";
+import { Image } from "../Contants";
 import Navbar from "./Navbar";
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (

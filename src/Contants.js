@@ -1,13 +1,13 @@
-import bgImg from "./bg-slate.png";
-import BlackCoffee from "./black.png";
-import Cover from "./coffee-cover.jpg";
-import Map from "./world-map.png";
-import coffee1 from "./coffee/coffee1.png";
-import coffee3 from "./coffee/coffee3.png";
-import banner from "./website/banner.jpg";
-import AppStore from "./website/app_store.png";
-import PlayStore from "./website/play_store.png";
-import Credits from "./website/credit-cards.webp";
+import bgImg from "./Assets/bg-slate.png";
+import BlackCoffee from "/black.png";
+import Cover from "./Assets/coffee-cover.jpg";
+import Map from "./Assets/world-map.png";
+import coffee1 from "./Assets/coffee/coffee1.png";
+import coffee3 from "./Assets/coffee/coffee3.png";
+import banner from "./Assets/website/banner.jpg"
+import AppStore from "./Assets/website/app_store.png";
+import PlayStore from "./Assets/website/play_store.png";
+import Credits from "./Assets/website/credit-cards.webp";
 
 const bgImage = {
   backgroundImage: `url(${bgImg})`,

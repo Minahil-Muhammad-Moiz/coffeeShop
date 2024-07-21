@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from "../Assets/Contants";
+import { Image } from "../Contants";
 import {motion } from 'framer-motion'
 
 const Cover = () => {

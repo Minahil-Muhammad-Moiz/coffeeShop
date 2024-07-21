@@ -1,4 +1,4 @@
-import { Image } from "../Assets/Contants";
+import { Image } from "../Contants";
 import { easeInOut, motion } from "framer-motion";
 
 const BuyerForm = () => {

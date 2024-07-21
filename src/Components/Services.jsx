@@ -1,4 +1,4 @@
-import { Service } from "../Assets/Contants";
+import { Service } from "../Contants";
 import { motion } from "framer-motion";
 
 const Services = () => {
