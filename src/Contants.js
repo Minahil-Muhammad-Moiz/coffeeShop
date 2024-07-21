@@ -4,10 +4,13 @@ import Cover from "./Assets/coffee-cover.jpg";
 import Map from "./Assets/world-map.png";
 import coffee1 from "./Assets/coffee/coffee1.png";
 import coffee3 from "./Assets/coffee/coffee3.png";
-import banner from "./Assets/website/banner.jpg"
+import banner from "./Assets/website/banner.jpg";
 import AppStore from "./Assets/website/app_store.png";
 import PlayStore from "./Assets/website/play_store.png";
 import Credits from "./Assets/website/credit-cards.webp";
+import { PiPhone } from "react-icons/pi";
+import { BiBuilding } from "react-icons/bi";
+
 
 const bgImage = {
   backgroundImage: `url(${bgImg})`,
@@ -53,3 +56,16 @@ export const Service = [
     description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
+
+export const CompanyDetail = [
+  {
+    icon: PiPhone,
+    title: "+1 (123) 456-7890",
+  },
+  {
+    icon: BiBuilding,
+    title: "Lorem ipsum dolor sit",
+  },
+];
+
+export const footerLinks = ["Home", "About", "Contact Us", "Privacy Policy"];
